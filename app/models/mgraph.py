@@ -35,7 +35,7 @@ from scipy import sparse
 from numpy import dot
 from numpy.linalg import norm
 from numpy import linalg as LA
-from models.similarity import Similarity
+from app.models.similarity import Similarity
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy import spatial
 from sklearn.decomposition import non_negative_factorization

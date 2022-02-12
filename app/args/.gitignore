@@ -1,5 +1,5 @@
 # Ignore everything
-*
+mfbn.json
 
 # But not these files...
 !.gitignore

@@ -64,11 +64,11 @@ import os
 import inspect
 import json
 
-from models.mgraph import MGraph
-from models.coarsening import Coarsening
-import models.args as args
+from app.models import MGraph
+from app.models import Coarsening
+import app.models.args as args
 
-from models.timing import Timing
+from app.models import Timing
 
 __maintainer__ = 'Alan Valejo'
 __email__ = 'alanvalejo@gmail.com'
