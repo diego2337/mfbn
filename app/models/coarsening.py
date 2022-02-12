@@ -36,7 +36,7 @@ import sys
 import numpy
 import multiprocessing as mp
 
-from models.similarity import Similarity
+from app.models.similarity import Similarity
 
 
 def modified_starmap_async(function, kwargs):
